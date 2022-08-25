@@ -23,6 +23,20 @@ body {
   padding: 20px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .main {
   flex: 1;
+}
+
+.dropdown-btn {
+  display: inline;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
 }
