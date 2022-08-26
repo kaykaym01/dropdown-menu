@@ -40,3 +40,21 @@ body {
   cursor: pointer;
   font-size: 2rem;
 }
+
+.menu {
+  background-color: antiquewhite;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu-item {
+  text-align: left;
+  padding: 10px;
+}
+
+.menu-item:hover {
+  background-color: hsl(34, 80%, 30%);
+  color: white;
+}
